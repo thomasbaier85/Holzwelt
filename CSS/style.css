@@ -1,0 +1,1378 @@
+@CHARSET "UTF-8";
+
+/*Schriften*/
+body { 
+	font-family: calibri, arial, verdana, sans-serif;
+	color:#37464d;
+	font-style: normal;
+	font-weight: normal;
+	}
+
+h1
+	{
+	font-family: calibri, arial, verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 200%;
+	text-decoration: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;	
+	
+	}
+	
+
+
+h2
+	{
+	color:#37464d;
+	font-family:calibri, arial, verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 130%;
+	text-align: ;
+	text-decoration: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;	
+	
+	}
+	
+		
+
+#header_subbox_3 h2, #header_subbox_4  h2{
+	background: rgba(55, 70, 77, 0.2);
+	
+}
+
+
+
+#top h2, #top_2 h2{
+	background: rgba(55, 70, 77, 0.2);
+
+}
+
+
+	
+.fbox_a h2, .text_slides h2, .text_slides h3
+	{
+	color: white; /* #c0051a; #37464d;*/
+	padding: 0 0 0 0;
+	}
+	
+.fart_a h2 
+	{
+	background-color: ;
+	color:rgba(192, 5, 26, 1);
+	padding:1%;
+	text-align: left;
+	
+	}
+
+.fart_b h2 
+	{
+	background-color: ;
+	color:rgba(192, 5, 26, 1);
+	padding:1%;
+	text-align: left;
+	}
+	
+
+
+h3 {
+	color:#37464d;
+	font-family:calibri, arial, verdana, sans-serif;
+	font-style: normal;
+	font-weight:bold ;
+	font-size: 110%;
+	text-align: ;
+	text-decoration: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	
+	
+	}
+	
+
+	
+h4
+	{
+	color:#37464d;
+	font-family: calibri,arial, verdana, sans-serif;
+	font-style: normal;
+	font-weight:bold;
+	font-size: 100%;
+	text-align: ;
+	text-decoration: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;	
+	}
+	
+header h4
+	{
+	font-family:calibri;
+	color:#37464d;
+	
+	}
+	
+	
+
+.fart_a h4 
+	{
+	color:#37464d;
+	}
+	
+.fart_b h4 
+	{
+	color:#37464d;
+	}
+
+footer h4
+	{
+	color:white;
+	}
+
+.team h4{
+	color:rgba(192, 5, 26, 1);
+}
+	
+p
+	{
+	color:#37464d;
+	font-family:calibri, arial, verdana, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: ;
+	text-decoration: none;
+	padding:0 0 0.5% 0;
+	margin: 0px 0px 0px 0px;	
+	}
+	
+
+	
+header p 
+	{
+	font-size:0%;
+	}
+	
+.fbox_a_slidertext p{
+	color: white;
+	font-weight: normal;
+	padding:5%;
+	font-size:100%;
+}
+
+
+.bildergalerie_text p {
+	color: white;
+	font-weight: ;
+}
+	
+footer p
+	{
+	color: white;
+	}
+	
+	
+#top p{
+	background: rgba(55, 70, 77, 0.2);
+}
+	
+#impressum p
+	{
+	font-size: 70%;
+	}
+
+
+	
+
+/*Links*/
+a {
+	color:#37464d;
+	font-family: calibri, arial, verdana, sans-serif;
+	font-style: normal;
+	
+	
+	text-align: ;
+	padding:0 0 0.5 0;
+	margin: 0px 0px 0px 0px;	
+	
+	transition: all 0.7s;
+	
+	}
+	
+#top_2 a{
+	display: block; /*display: block führt dazu, dass inline element a die gesamte zur Verfügung stehende Breite einnimmt*/
+}
+
+#header_subbox_3, #header_subbox_4 a{
+	display:block;
+}
+
+a:link {
+	 color:;
+	 text-decoration: none;
+	}
+
+a:visited {
+	 color:;
+	 
+	}
+
+a:active {
+	color:#c0051a;
+	background-color::#37464d;
+	 
+	}
+
+a:hover {
+	color:#c0051a;
+	background-color:#37464d;
+	 text-decoration:none;
+	}
+	
+
+	
+footer a {
+	
+	color: white;
+	
+			}
+			
+
+
+
+/*Navigation*/
+
+nav  {
+	
+	position: absolute;
+	top:115px;
+	left:0%;
+	background:;
+	width: 100%;
+	z-index:1;
+	font-size:130%;
+	font-weight: bold;
+	
+}
+
+
+nav > ul {
+	
+	background: ;
+	list-style: none;
+	text-align: center;
+	
+/*definiert die Breite des Navigationselements; Breite ist identisch zu Main-Element; Element ist Parent-Element für Flexboxen der li*/
+	width: 80%;
+	min-width: ;
+	max-width:1000px;
+	margin:0 auto 0 auto; /*80% immer mittig in Bildschirm*/
+	padding: 0;
+/*definiert die Breite des Navigationselements; Breite ist identisch zu Main-Element; Element ist Parent-Element für Flexboxen der li*/	
+	
+	
+	
+	display: flex;
+	justify-content:space-between;							
+	flex-wrap: wrap;
+	
+}
+
+
+nav > ul > li {
+	
+	position: relative;
+	background:;
+	
+	
+	
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 20%; /*Basiswert scheint egal zu sein von 1-20%, muss nur gesetzt sein; liegt wohl daran, dass Flexboxen, wg grow und shrink 1 gleichmäßig angepasst werden*/
+		
+}
+
+nav > ul > li > a {
+	
+	color: white;	
+	background:rgba(192, 5, 26, 1);
+	margin: 0 1px 0 1px;
+	padding:7px 7px 7px 7px;
+	display: block;
+	
+}
+
+
+nav > ul > li > a:hover {
+	
+	color:#c0051a;
+	background:#37464d;
+	
+}
+
+
+
+nav > ul > li > ul{
+	
+	min-width: 100%;
+	background: ;
+	list-style: none;
+	margin:0;
+	padding:0;
+	
+	
+	display: flex;
+	justify-content:space-between;							
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+	
+	
+	
+}
+
+nav > ul > li > ul >li{
+	
+	background:;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 5%;
+	
+
+}
+
+nav > ul > li > ul >li > a{
+	
+	display: block;
+	
+	color: white;
+	background:rgba(192, 5, 26, 1);
+	margin:2px 1px 0px 1px;
+	padding:7px 7px 7px 7px;
+
+}
+
+
+
+nav > ul > li > ul >li > a:hover{
+	
+	color:#c0051a;
+	background:#37464d;
+	
+	
+}
+
+
+nav > ul > li a + ul {
+	display: none;
+	position: absolute;
+	
+}
+
+nav > ul > li:hover a + ul {
+		display: block;
+		
+	}
+
+
+
+
+.logo {
+float: left;
+width: auto;
+height:50px;
+margin:0 0 0 0;
+vertical-align: middle;
+}
+
+
+#mobile_navigation_anker{
+	position:fixed;
+	z-index:20;
+	width:100%;
+	top:0px;
+}
+
+.slicknav_menu, #mobile_navigation_anker {
+	display:none;
+}
+
+
+
+			
+			
+/*Styles aus Div */
+img {display: block;} /*verhindert die nervige Lücke unter Bildern*/
+
+span.grey{
+	color:#37464d;
+}
+
+span.red{
+	color:#c0051a;
+}
+
+
+
+span.white{
+	color:white;
+}
+
+
+span.lightgrey_bg{
+	background:rgba(55, 70, 77, 0.2);
+	padding: 0%;
+
+}
+
+span.aktiv{
+	color:#c0051a;
+	background-color:#37464d;
+}
+
+
+.hline_a
+	{
+	background-color:rgba(55, 70, 77, 0.5);
+	height:2px;
+	}
+	
+
+.hline_b
+	{
+	background-color: rgba(192, 5, 26, 1); /*rgba(55, 70, 77, 0.5) ;*/
+	width:100%;
+	height:2px;
+	margin: 0 auto 0 auto;
+	}
+
+
+.hline_c
+	{
+	background-color:rgba(55, 70, 77, 1);
+	height:2px;
+	margin:0 0 40px 0;
+	width:95%;
+	float:right;
+	}
+	
+body {	
+	
+	background-image: ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: ;
+	background-size: cover;
+	background-color:;
+	margin: 0 0 0 0;
+	padding:0 0 0 0;
+	}
+
+.rotate {
+ transition: transform 0.7s;
+}
+
+.rotate:hover {
+ transform: rotate(10deg);
+ transform: scaleX(-1);
+}
+
+/*Automatische Bildergröße im CSS wg validem HTML*/
+.bildergrösse{
+	width:100%;
+	height:auto;
+}
+
+/*Größe der Youtubevideos*/
+.video_size{
+	width:640px;
+	height:360px;
+}
+
+
+.produktenachoben a{
+	background:rgba(55, 70, 77, 0.2);
+}
+
+
+/*Beginn der Elemente innerhalb des Header-Bereichs*/
+	
+header {
+	width: 100%;
+	background-color:;
+	position: relative;
+	margin: 15px auto 0 auto;
+	padding: 0 0 0 0;
+
+	
+	display:flex;
+	justify-content: space-between;							
+	flex-wrap: wrap;
+	align-items: stretch; /*flex-end; in Richtung , die nicht Hauptrichtung ist*/;
+	
+
+	}
+
+
+/*Beginn der header_subbox_1, die Logo umschließt, Flex Parent für innere Elemente*/
+
+
+
+#header_subbox_1{
+	
+	margin: 0 1% 0 1%;
+	}
+
+
+/*header_subbox_2 ist Parent für 2 Flexboxen; Eine davon ist leer. Flexbox mit direction column dient dazu, um Slogan an underes Ende des HEaders zu drücken*/	
+
+#header_subbox_2{
+	
+	width:;
+	background-color:;
+	margin: 0 0 0 0;
+	padding:; /* wird nur bei kleinen Bildschirmgrößen sichtbar, wenn Slogen unter Logo geschoben wird*/
+	
+	
+	display:flex;
+	flex-direction:column; 
+	justify-content:space-between;							
+	flex-wrap: wrap;
+	}
+	
+	
+
+#header_subbox_3
+	{	
+	width:auto;
+	margin: 0 1% 0 1%;
+	padding:0;
+	text-align: right;
+	
+	display:flex;
+	flex-direction:column; 
+	justify-content:space-between;							
+	flex-wrap: wrap;
+	order: 3;
+	
+	}
+
+
+#header_subbox_4 /*nur für Mobile Darstellung, deshalb Standart Display none;*/
+	{	
+	width: 100%;
+	text-align: center;
+	margin:70px 0 10px 0;
+	order: -1;
+	display:none;
+	
+	
+	}
+
+
+/*Ende der Elemente innerhalb des Header-Bereichs*/
+
+
+
+
+
+/*Elemente des Slideshow-Bereichs*/
+
+.indexslideshow{
+	margin: 15px 0 0 0;
+	
+}
+
+.indexslides{
+	position:relative;
+}
+
+	
+.text_slides
+	{
+	background-color:rgba(55, 70, 77, 0.8);			/*rgba(192, 5, 26, 0.8);    rgb 55, 70, 77 entspricht Hex #37464d, d.h. Logo-Grau, letzter Wert ist transparenz*/
+	color: white;
+	padding:2% 2% 2% 2%;
+	z-index:2;
+	position: absolute; 
+	width: auto;
+	bottom:10%;
+	right:5%;	
+	}
+
+	
+/*Beginn Elemente des Slideshow-Bereichs*/	
+
+
+
+
+	
+/*Beginn Einstellungen für den main Bereich*/
+	
+main{
+	width: 80%;
+	min-width: ;
+	max-width:1000px;
+	
+	margin: 0 auto 0 auto;
+	padding:0; /* legt (weißen) Rand um Inhalt fest, Am unteren Ende wird Rand durch margin der fart-Boxen bestimmt*/
+	overflow:hidden;
+	
+	
+	}	
+	
+/*Ende Einstellungen für den main Bereich inc. Media Query für Handy*/
+	
+	
+
+	
+
+
+#wrapper_fbox
+	{
+	overflow:hidden;
+	width:100%;
+	background:;
+	position: relative;
+	margin: 0.5% 0 3% 0; 
+	padding:; 
+	display:-webkit-flex;
+	display:flex;
+	justify-content:space-between;							
+	flex-wrap: wrap;
+	}
+	
+.wrapper_fbox
+	{
+	overflow:hidden;
+	width:100%;
+	background:;
+	position: relative;
+	margin: 0.5% 0 3% 0; 
+	padding:; 
+	display:-webkit-flex;
+	display:flex;
+	justify-content:space-between;							
+	flex-wrap: wrap;
+	}
+
+
+
+
+
+
+
+.fbox_a 
+	{
+	text-align: justify;
+	width:32.66%;  	
+	margin: 0 0 0.7em 0;/*0 0 1% 0;*/
+	position:relative;
+	padding:;
+    background-color:;
+	
+	}
+	
+.fbox_b 
+	{
+	text-align: justify;
+	width:30%;  	
+	margin: 0 0 25px 0;
+	position:relative;
+
+	}
+
+
+
+
+
+
+.fbox_a_slidertext
+	{
+	background-color: rgba(55, 70, 77, 0.8);
+	width:100%;
+	height: 100%;
+	
+	text-align: center;
+	
+	
+	position: absolute;
+	top:0%;
+	
+	}
+
+.wrapper_fbox_a_text
+	{
+	background-color: rgba(192, 5, 26, 1); /*HTML #C0051A entspricht RGB (192,5,26)*/  /*  rgb 55, 70, 77 entspricht Hex #37464d, d.h. Logo-Grau, letzter Wert ist transparenz*/
+	
+	position: absolute; 
+	bottom:10%;
+	left:1%;
+	padding:1% 1% 1% 1%;
+	width: auto;
+	text-align: left;
+	}
+	
+	
+.wrapper_fbox_a_text_2
+	{
+	background-color: rgba(55, 70, 77, 1); /*HTML #C0051A entspricht RGB (192,5,26)*/  /*  rgb 55, 70, 77 entspricht Hex #37464d, d.h. Logo-Grau, letzter Wert ist transparenz*/
+	
+	position: absolute; 
+	bottom:10%;
+	left:1%;
+	padding:1% 1% 1% 1%;
+	width: auto;
+	text-align: left;
+	}
+
+.wrapper_fbox_a_text_3{
+	background-color: orange; /*HTML #C0051A entspricht RGB (192,5,26)*/  /*  rgb 55, 70, 77 entspricht Hex #37464d, d.h. Logo-Grau, letzter Wert ist transparenz*/
+	
+	position: relative; 
+	bottom:;
+	left:1%;
+	padding:1% 1% 1% 1%;
+	width: auto;
+	text-align: left;
+	
+}
+
+
+ 
+#wrapper_fart
+	{
+	overflow:hidden;
+	width:100%;
+	background:;
+	position: relative;
+	margin: 0.5% 0 2% 0;    
+	display:flex;
+	justify-content:space-between;							
+	flex-wrap: wrap;
+	align-items: ; /*flex-start für nicht gleich hohe blöcke */'
+	}
+
+
+
+.fart_a
+	{
+	
+	overflow: hidden;
+	
+	text-align: justify;
+	background:;
+	width:22.25%;  		/*100%-3*1%margin zwischen Boxen-4*2% padding=89%/4_22.25%; dann nochmal 1.5% wg dem rahmen kein plan ob so exakt richtig*/
+	margin:0 0 0.7em 0; 
+	padding: 1%;
+    background-color: rgba(55, 70, 77, 0.2);  /*  rgb 55, 70, 77 entspricht Hex #37464d, d.h. Logo-Grau, letzter Wert ist transparenz*/
+	}
+	
+
+#news{
+	
+	max-height: 390px;
+	overflow-y: auto;
+}
+
+	
+.fart_b
+	{
+	
+	text-align: justify;
+	background:;
+	width:47.5%;  		/*, Karte nimmt halbe Breite ein; warum 47.3 die doppelte breite als 22% mit sich bringt weiss nur gott---try and error*/
+	margin:0 0 0.7em 0;
+	padding:1% ;
+    background-color: rgba(55, 70, 77, 0.2);  /*  rgb 55, 70, 77 entspricht Hex #37464d, d.h. Logo-Grau, letzter Wert ist transparenz*/
+	}
+	
+	
+
+
+#media
+	{
+	margin: 3% 0 3% 0;
+	width: 100%;
+	
+	display:-webkit-flex;
+	display:flex;
+	justify-content:space-between;
+	align-items:flex-start;							
+	flex-wrap: wrap;
+	text-align: left;
+	}
+	
+	
+.media-item{
+	text-align: center;
+	
+	}
+	
+
+
+.media-image{
+	margin: 0 auto 0 auto;
+}
+
+
+#top_2{
+	
+	display:none;
+}
+
+
+.hline
+	{
+	background-color: rgba(192, 5, 26, 1); /*rgba(55, 70, 77, 0.5) ;*/
+	width:100%;
+	height:3px;
+	margin: 20px  auto 0 auto;
+	}
+
+
+
+
+footer 
+	{
+	width:100%;  		/*100%-3*1%margin zwischen Boxen-4*2% padding=89%/4_22.25%; dann nochmal 1.5% wg dem rahmen kein plan ob so exakt richtig*/
+	margin: 0 0 0 0;
+	padding: 0%;
+    background-color: rgba(55, 70, 77, 0.8);
+    text-align: center;
+    overflow:hidden;
+    
+    position: relative;
+	background-image: url(background_2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: ;
+	background-size: cover;
+	}
+
+#footer_wrapper
+	{
+	width:80%;
+	max-width: 1000px;
+	margin:0 auto 0 auto;
+	padding: 20px 0 20px 0;
+	background: ;
+	overflow:hidden;   
+	
+	display:-webkit-flex;
+	display:flex;
+	justify-content:space-around;							
+	flex-wrap: wrap;
+	align-items: flex-start; /*flex-start für nicht gleich hohe blöcke */'
+	}
+	
+
+
+
+.ffooter{
+	text-align: left;
+	width:;  		/*waum 47.3 die doppelte breite als 22% mit sich bringt weiss nur gott---try and error*/
+	margin:0 0 5% 0;
+	padding:1% ;
+    background-color: ;
+		}
+		
+
+
+
+footer > #footer_wrapper > .ffooter > ul {
+	
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-align:;
+	
+}
+
+footer > #footer_wrapper > .ffooter > ul > li > ul{
+	
+	
+	list-style: none;
+	padding:0 0 0 20px;
+	
+	
+}
+
+
+	
+#impressum
+	{
+	width: 100%;
+	color: white; 
+	text-align: center;
+	padding: 0 0 0.5% 0;
+	background: ;
+
+	}
+	
+/*ANGABEN FÜR UNTERSEITEN*/	
+
+/*TEAM*/
+	
+	
+
+	
+.navi-background{
+	margin: 15px 0 25px 0;
+	
+}
+
+
+
+.flexbox_team_wrapper{
+	
+	display:flex;
+	justify-content:space-between;							
+	flex-wrap: wrap;
+	position: relative;
+	margin:0 0 0 0;
+	
+}
+
+.team{
+	
+	width:20%; 
+	min-width:210px;
+	margin:0 0 30px 0;
+	padding:0 ;
+    background-color: rgba(55, 70, 77, 0.2);  /*  rgb 55, 70, 77 entspricht Hex #37464d, d.h. Logo-Grau, letzter Wert ist transparenz*/
+	text-align: justify;
+	
+	border-top-width: 2px;
+    border-top-style: solid;
+    border-color: rgba(192, 5, 26, 1);
+}
+
+
+
+/*HISTORIE*/
+
+main > dl > dt {
+	font-weight: bold;
+	color:;
+	
+	
+	
+}
+main > dl > dd {
+	margin:0 0 0 50px;
+	
+}
+
+/*HOLZFACHMARKT*/
+
+.text_links{
+	
+	width:70%; 
+	margin:0 0 0 0;
+	padding:0 ;
+	text-align: left;
+	
+	
+}
+
+.teamframe{
+	
+	width:20%;
+	min-width:210px;
+
+	padding:0px;
+	margin:0;
+	
+	
+	
+	
+	display:flex;
+	justify-content:space-between;							
+	flex-wrap: wrap;
+	position: relative;
+	
+}
+
+
+
+
+#geschaeftsfelder{
+	
+	align-items: flex-start; /*sorgt dafür, dass text_links und teamframe nicht gleich hoch sind */
+	
+}
+
+
+
+
+
+
+main >.flexbox_team_wrapper>.text_links> ul > li {
+	margin:0 0 10px 0;
+	
+}
+
+main >.flexbox_team_wrapper>.text_links> article> ul > li {
+	margin:0 0 10px 0;
+	
+}
+
+
+
+
+
+
+
+.bildergalerie_wrapper{
+	margin:0px 0 0 0;
+	position:relative;
+	width:100%;
+	max-width:700px;
+}
+
+#bildergalerie_holzfachmarkt{
+	width:100%;
+	margin:0;
+	
+}
+
+.bildergalerie{
+	position: relative;
+}
+
+.bildergalerie_text{
+	position: absolute;
+	bottom:10px;
+	right:10px;
+	z-index:10;
+	background-color: rgba(55, 70, 77, 0.8);
+	color:white;
+}
+
+/*HOLZWELT*/
+
+
+.flexwrapper{
+	
+	overflow:hidden;
+	width:100%;
+	background:;
+	position: relative;
+	margin:0 0 0 0;    
+	display:flex;
+	justify-content:space-between;							
+	flex-wrap: wrap;
+	text-align: left ; /*flex-start für nicht gleich hohe blöcke */'
+	
+}
+
+/*GARTENHOLZ*/
+
+
+ 
+
+
+
+.text_links > .produkte> dl > dt {
+	font-weight: bold;
+	margin:0 0 0 20px;
+	
+	
+}
+
+.produktenachoben{
+	float:right;
+	color: red;
+}
+
+
+
+
+#fieberon{
+	background:black;
+}
+
+
+.fussbemerkung{
+	width:70%;
+}
+
+.katalog_size{
+	
+	width:650px;
+	height:433px;
+}
+
+
+/*REFERENZEN*/
+
+.bildergalerie_ref{
+	
+	margin: 0px 5px 0px 5px;
+}
+
+.unterseite_ohne{
+	margin:130px auto 20px auto;
+	width:80%;
+	max-width:1000px;
+}
+
+
+/*Mediaqueries*/
+
+/*erster Breakpoint*/
+
+	@media all and (max-width: 1100px) {
+	
+		nav 
+		{
+			font-size:100%;
+		}
+		
+		
+		#header_subbox_2 h1
+		{
+			font-size: 150%;
+		}
+		
+		.text_slides h2
+		{
+			font-size:120%;
+			
+		}
+		
+		.text_slides h3
+		{
+			font-size:100%;
+		}
+		
+		
+		.text_links
+		{
+			width:100%;
+		}
+		
+		.fussbemerkung{
+			width:100%;
+		}
+		
+		.teamframe
+		{
+			width:100%;
+		}
+		
+		.teamrechts
+		{
+			width:20%;
+			min-width:210px;
+		}
+		
+		.ffooter
+		{
+			width:40%;
+			text-align: center;
+		}
+		
+		
+		.fbox_a 
+		{
+			width:49.5%; /* 2 Boxen nebeneinander*/
+		}
+		
+		
+		.fbox_b
+		{
+			width:47.5%; /* 2 Boxen nebeneinander*/
+		}
+		
+		
+		.fart_a 
+		{
+			width:47.5%; /*2 Boxen nebeneinander*/		
+			
+		}
+		
+		.fart_b 
+		{
+			width:100%; /*Boxen werden direkt untereinander mit 100% angezeigt; Problem: Margin Firefox*/		
+		}
+		
+		#katalogbild
+		{
+		max-width:200px; /*sorgt dafür, dass Katalogbild nicht zu groß wird
+		margin: ;*/
+		
+		}
+		
+		.media-item
+		{
+			width:50%; 		
+			margin: 10px 0 10px 0;
+		}
+		
+		footer > #footer_wrapper > .ffooter > ul > li > ul /*sorgt für schönes Layout bei text-align center im ffooter*/
+		{
+		padding:0;
+		}
+		
+		
+	}
+	
+
+
+
+
+
+/*zweiter Breakpoint*/
+
+	@media all and (max-width: 768px) {
+	
+		nav, #header_subbox_1, #header_subbox_2 {
+			display:none;
+		}
+	
+		.slicknav_menu, #mobile_navigation_anker{
+			display:block;
+		}	
+		
+		.produkte h1:before, .produkte h2:before { /*berücksictigt fixen header bei internen links für h1 h2*/
+  			display: block; 
+  			content: " "; 
+			  margin-top: -80px; 
+ 			 height: 80px; 
+ 			 visibility: hidden; 
+			}
+		
+				
+		#header_subbox_3 /*Der Link verweist wg festem header auf falsche Position in mobiler Ansicht*/
+		{
+			display:none;
+		}
+		
+		#header_subbox_4
+		{
+			display:block;
+		}
+		
+		.text_slides
+		{
+			position:static;
+			background-color:rgba(55, 70, 77, 1);
+			color:white;/*#37464d;*/
+			text-align: left;
+		}
+		
+		#top
+		{
+			display:none;
+		}
+		
+		#top_2
+		{
+			display:block;
+			width: 100%;
+			text-align: center;
+			margin:10px 0 20px 0;
+		}
+		
+		.text_links, .bildergalerie_wrapper{
+			width:100%;
+		}
+		
+		
+		main {
+			width:90%; /* In Handyansicht bedecken Boxen vollen Bildschirm*/
+			
+		}
+		
+		#footer_wrapper
+		{
+			width:90%; /* passt Breite an main-Abschnitt an*/
+		}
+		
+		.iframeprodukte{
+		
+			height:450px;
+		}
+		
+		.katalog_size{
+	
+			width:450px;
+			height:300px;
+			}
+		
+		.video_size{
+	
+			width:440px;
+			height:248px;
+			}
+	
+		
+			
+	}
+
+
+/*dritter Breakpoint*/
+
+	@media all and (max-width: 480px) {
+	
+		
+		.fbox_a, .fbox_b {
+			width:100%; /*1 Box nebeneinander*/		
+		}
+		
+		.fart_a 
+		{
+		width:100%; /*1 Box nebeneinander*/	
+		padding:10px;	
+		}
+		
+		.fart_b
+		{
+		padding:10px;
+		}
+		
+		.media-item
+		{
+			width:100%; /*Boxen werden direkt untereinander mit 100% angezeigt; Problem: Margin Firefox*/		
+			margin: 10px 0 10px 0;
+		}
+		
+		.ffooter 
+		{
+			width:100%; /*Boxen werden direkt untereinander mit 100% angezeigt; Problem: Margin Firefox*/	
+		}
+		
+		
+		
+		.team{
+		
+			width:100%;
+		}
+		
+		.iframeprodukte{
+		
+			height:300px;
+		}
+		
+		.katalog_size{
+	
+			width:300px;
+			height:200px;
+			}
+			
+		.video_size{
+	
+			width:280px;
+			height:158px;
+			}
+
+		.bildergalerie_ref{
+	
+		margin: 0;
+			}
+		
+		
+	}
